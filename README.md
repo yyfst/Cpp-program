@@ -2,7 +2,7 @@
 C++程序设计原理与实践
 ===
 
-><summary>1.相邻单词重复检测</summary>
+> <summary>1.相邻单词重复检测</summary>
 
 
 ```cpp
