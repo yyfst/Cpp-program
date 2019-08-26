@@ -2,7 +2,7 @@
 C++程序设计原理与实践
 ====
 
-		```
+		```markdown
 		string p = "";
 		string s;
 		while (cin >> s)
