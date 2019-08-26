@@ -3,6 +3,7 @@ C++程序设计原理与实践
 ===
 <details>
 <summary>1.相邻单词重复检测</summary>
+	
 ```cpp
 	string p = "";
 	string s;
