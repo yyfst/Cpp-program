@@ -9,9 +9,9 @@
 	string s;
 	while (cin >> s)
 	{
-  	if (s == p)
-  		cout << "repeat：  " << s << endl;
-  	p = s;
+		if (s == p)
+			cout << "repeat：  " << s << endl;
+		p = s;
 	}
 ```
 
