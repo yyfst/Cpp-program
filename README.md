@@ -5,14 +5,14 @@
 1. 相邻单词重复检测
 	
 ```cpp
-	string p = "";
-	string s;
-	while (cin >> s)
-	{
-  	if (s == p)
-  		cout << "repeat：  " << s << endl;
-  	p = s;
-	}
+  string p = "";
+  string s;
+  while (cin >> s)
+  {
+    if (s == p)
+      cout << "repeat：  " << s << endl;
+    p = s;
+  }
 ```
 
 2. 为`char`类型的变量赋一个负数值时，打印该变量没有任何符号显示
@@ -52,8 +52,8 @@
 * 符号常量  
 用标识符代表一个常量，使用之前必须定义。例如宏定义和枚举元素
 ```cpp
-	#define LENGTH 100 //LENGTH为符号常量，100为整型常量
-	enum Week{MON, TUES, WED, THU, FRI};   //SUN,MON等均为符号常量
+  #define LENGTH 100 //LENGTH为符号常量，100为整型常量
+  enum Week{MON, TUES, WED, THU, FRI};   //SUN,MON等均为符号常量
 ```
 
 11.&ensp;变量是什么？  
@@ -78,9 +78,9 @@
 
 21.&ensp;什么是类型安全，为什么它是重要的？  
 &emsp;每个对象在定义时被分配一个类型。对于一个程序或程序的一个部分，如果使用的对象符合它们规定的类型，那么它们是类型安全的。但是很多操作不是类型安全的，比如使用了未初始化的变量
-```cpp
-	int x;
-	int y=x+1;
+```cpp  
+  int x;
+  int y=x+1;
 ```
 &emsp;这里的x没用初始化，并且使用了它，所以程序会出现错误，这个操作就不是类型安全的
 
